@@ -6,7 +6,7 @@ contador = 0
 numero = int(input("Introduce un numero para poder adivinarlo. Si no lo adivinas en 5 intentos, se acabara el juego: "))
 num = random.randint(1, 100)
 
-while numero != num and contador < 5:
+while numero != num and contador < 10:
 
     contador += 1
 
