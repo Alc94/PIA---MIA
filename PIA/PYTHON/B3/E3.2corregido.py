@@ -13,7 +13,7 @@ def obtener_media_columna(filas, columna):
         if clase not in valores:
             valores[clase] = []
         valores[clase].append(fila[columna])
-    print(valores)
+    #print(valores)
 
     resultados = {}
     for clase, v in valores.items():
