@@ -1,3 +1,14 @@
-*.docx
-*.tmp
-~.docx
+myvenv/
+**/myvenv/
+__pycache__
+**/data/
+*.json
+*.pyc
+entregable_refugio/mysql/data/
+entregable_refugio/postgres/data/
+entregable_refugio/mariadb/data/
+myvenv/
+__pycache__/
+*.pycSAA/
+SIST-BIG-DATA/
+BIG-DATA-AP/
