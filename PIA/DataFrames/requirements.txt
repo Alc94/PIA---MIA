@@ -1,0 +1,8 @@
+# Manipulación de Datos (DataFrames)
+pandas
+
+# Computación Numérica
+numpy
+
+# Visualización de Datos
+matplotlib
