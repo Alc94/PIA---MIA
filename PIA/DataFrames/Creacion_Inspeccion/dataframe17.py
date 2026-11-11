@@ -2,7 +2,7 @@ import pandas as pd
 
 # Comprobar si un objeto DataFrame está vacío con empty
 
-alumnos = pd.read_csv('alumnos.csv')
+alumnos = pd.read_csv('../datos/alumnos.csv')
 
 print(alumnos.empty)
 

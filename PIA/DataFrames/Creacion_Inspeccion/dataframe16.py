@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Obtener la cantidad de memoria ocupada por cada columna en un DataFrame
-alumnos = pd.read_csv('alumnos.csv')
+alumnos = pd.read_csv('../datos/alumnos.csv')
 
 # Junto con el parametro deep=True, calcula el uso real de memoria
 # Con index=False, excluye el indice del resultado, viendo asi solo las columnas

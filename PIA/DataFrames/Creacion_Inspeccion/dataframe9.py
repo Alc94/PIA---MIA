@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Renombrar una columna de un DataFrame con la función rename.
-ejemplo = pd.read_csv('sample-simple.csv')
+ejemplo = pd.read_csv('../datos/sample-simple.csv')
 
 nom_columnas = ejemplo.columns.to_list()
 print(nom_columnas)

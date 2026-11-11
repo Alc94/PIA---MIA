@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Obtener la dimensión, el tamaño, y la forma de un objeto DataFrame
-alumnos = pd.read_csv('alumnos.csv')
+alumnos = pd.read_csv('../datos/alumnos.csv')
 
 # Con .shape obtenemos las dimensiones de filas y columnas del DataFrame
 print("Numero de filas y columnas:", alumnos.shape)

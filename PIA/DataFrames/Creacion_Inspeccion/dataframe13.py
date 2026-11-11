@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Obtener las columnas de un determinado tipo de dato con select_dtypes
-alumnos = pd.read_csv('alumnos.csv')
+alumnos = pd.read_csv('../datos/alumnos.csv')
 
 print(alumnos)
 

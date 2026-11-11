@@ -2,7 +2,7 @@ import pandas as pd
 
 # Obtener los nombres de las filas y las columnas de un DataFrame
 
-ejemplo = pd.read_csv('sample-simple.csv')
+ejemplo = pd.read_csv('../datos/sample-simple.csv')
 
 # Junto con index obtenemos los nombres de las filas
 filas = ejemplo.index
